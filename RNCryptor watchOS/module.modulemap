@@ -1,0 +1,6 @@
+framework module RNCryptor {
+    umbrella header "RNCryptor watchOS.h"
+
+    export *
+    module * { export * }
+}
