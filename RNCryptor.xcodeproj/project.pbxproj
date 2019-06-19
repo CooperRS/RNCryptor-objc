@@ -126,6 +126,7 @@
 		AB13428315E0FC2300456914 /* RNCryptor OS X-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RNCryptor OS X-Info.plist"; sourceTree = "<group>"; };
 		AB13428515E0FC2300456914 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB13428715E0FC2300456914 /* RNCryptor OS X-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNCryptor OS X-Prefix.pch"; sourceTree = "<group>"; };
+		CA88E40722BA7F0E00C8A650 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		FB30216018802ED900BF8F3C /* RNCryptorGeneratedVectorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorGeneratedVectorTests.m; sourceTree = "<group>"; };
 		FB53C195187F6AB300952674 /* XCTestCase+RNCryptorVectorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+RNCryptorVectorTests.m"; sourceTree = "<group>"; };
 		FB53C197187F6C6500952674 /* XCTestCase+RNCryptorVectorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+RNCryptorVectorTests.h"; sourceTree = "<group>"; };
@@ -226,6 +227,7 @@
 			children = (
 				1F3717551DDB9C60009E537B /* RNCryptor watchOS.h */,
 				1F37175B1DDB9C8A009E537B /* Supporting Files */,
+				CA88E40722BA7F0E00C8A650 /* module.modulemap */,
 			);
 			path = "RNCryptor watchOS";
 			sourceTree = "<group>";
@@ -864,6 +866,7 @@
 				INFOPLIST_FILE = "RNCryptor watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "${SRCROOT}/RNCryptor watchOS/module.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = net.robnapier.RNCryptor;
 				PRODUCT_NAME = RNCryptor;
@@ -905,6 +908,7 @@
 				INFOPLIST_FILE = "RNCryptor watchOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "${SRCROOT}/RNCryptor watchOS/module.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = net.robnapier.RNCryptor;
 				PRODUCT_NAME = RNCryptor;
