@@ -625,7 +625,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = RN;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Rob Napier";
 				TargetAttributes = {
 					1F3717521DDB9C5F009E537B = {
